@@ -15,10 +15,10 @@ int main()
 	switch (phepToan)
 	{
 	case '+':
-		
+		cout<<a<<"+"<<b<<"="<<a+b<<endl;	
 		break;
 	case '-':
-
+		
 		break;
 	case '*':
 
