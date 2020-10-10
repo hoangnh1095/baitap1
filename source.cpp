@@ -4,7 +4,6 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
-
 int main()
 {
 	int a, b;
@@ -16,15 +15,14 @@ int main()
 	switch (phepToan)
 	{
 	case '+':
-		cout<<a<<"+"<<b<<"="<<a+b<<endl;	
+		
 		break;
 	case '-':
 
-		hieu = a-b;
-		cout<<"hieu la: " <<hieu;
-
 		break;
 	case '*':
+		tich=a*b;
+		cout<<"tich la: "<<tich;
 		break;
 	case '/':
 
