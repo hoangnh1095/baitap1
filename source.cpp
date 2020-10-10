@@ -25,7 +25,6 @@ int main()
 
 		break;
 	case '*':
-
 		break;
 	case '/':
 
