@@ -15,17 +15,19 @@ int main()
 	switch (phepToan)
 	{
 	case '+':
-		
+		cout<<a<<"+"<<b<<"="<<a+b<<endl;
 		break;
 	case '-':
-
+		hieu = a-b;
+		cout<<"hieu la: " <<hieu;
 		break;
 	case '*':
 		tich=a*b;
 		cout<<"tich la: "<<tich;
 		break;
 	case '/':
-
+		thuong = a/b;
+		cout<< "thuong la: "<<thuong;
 		break;
 	default:
 		cout << "Chon sai phep toan";
